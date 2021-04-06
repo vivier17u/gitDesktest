@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &330956199630374032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 330956199630374035}
+  - component: {fileID: 330956199630374037}
+  - component: {fileID: 330956199630374034}
+  m_Layer: 5
+  m_Name: anecdote__1
+  m_TagString: Anecdote_1
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &330956199630374035
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330956199630374032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000003159, y: -0.0000059605}
+  m_SizeDelta: {x: 417.3, y: 218.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &330956199630374037
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330956199630374032}
+  m_CullTransparentMesh: 0
+--- !u!114 &330956199630374034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330956199630374032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\tLe jeu vid\xE9o arrive dans l\u2019\xE8re de la 2D dans les ann\xE9es
+    80. Cette p\xE9riode repr\xE9sente un essor majeur avec la naissance de fili\xE8res
+    tr\xE8s connues comme Donkey Kong et Mario. On retrouve \xE9galement \xE0 cette
+    p\xE9riode, de nombreux jeux bas\xE9s sur des cartoons populaires de l\u2019\xE9poque,
+    notamment des Disney, mais aussi Sonic, les Tortues Ninja, les Simpson... \r\n\tEn
+    mati\xE8re de graphismes, les d\xE9cors \xE9voluent et des d\xE9tails commencent
+    \xE0 appara\xEEtre. C\u2019est aussi la p\xE9riode du rotoscoped animation, qui
+    est un proc\xE9d\xE9 cin\xE9matographique o\xF9 les contours d\u2019une figure
+    sont redessin\xE9s image par image. Ces nouveaux jeux ont pour objectif de se
+    d\xE9placer \xE0 travers un terrain, en \xE9vitant des obstacles ou ennemis,
+    afin de terminer un niveau. \r\n"
